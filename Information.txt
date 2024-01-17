@@ -1,0 +1,32 @@
+Information du Systeme 8 last bit
+
+
+Systeme 8 bit : 
+
+-0000-0000-
+4 bit d'instruction
+4 bit de donnée (registre ... ect ...)
+
+jeu d'instruction :
+
+
+
+0000 NOP
+0001 Load
+0010 Save
+0011 Bus Set
+
+0100 Bus Write
+0101 Bus Read
+0110 a = b
+0111 
+
+1000 ADD
+1001 SUB
+1010 AND
+1011 OR
+
+1100 SUPP (a > b ?)
+1101 NOT  !a
+1110 JMP
+1111 JMPC

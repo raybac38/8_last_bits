@@ -1,0 +1,23 @@
+
+Nouveau type de CPU 8 bit
+
+Taille d'une instruction : 1 octet
+
+-00000-000-
+
+5 byte d'upcode et 3 byte de donnée
+
+Composant du CPU :
+
+Registre CP : Pointeur d'instruction 
+    taille 2oct
+Registre I et I+1 : Donnée de l'instruction I et I+1
+    taille 2oct
+
+registre ALU Ain, Bin, Cout
+    taille : 1 octet
+
+Registre d'adresse :
+    taille : 2 octet
+
+Le reste des registres sont libre

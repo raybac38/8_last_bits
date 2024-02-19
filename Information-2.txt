@@ -21,3 +21,16 @@ Registre d'adresse :
     taille : 2 octet
 
 Le reste des registres sont libre
+
+5 bit d'upcode, soit 32 instruction différente
+
+Jeu d'instruction 
+
+0   :   NOP     (no operation)
+1   :   LOAD    (from RAM with adress store in adress register)
+2   :   SAVE    (from RAM with adress store in adress register)
+3   :   BUSS    (open with last bit)
+4   :   BUSW    (write data to the bus from a register)
+5   :   BUSR    (read data from the bus to a register)
+6   :   
+

@@ -1,0 +1,11 @@
+{
+  "name": "gamma",
+  "version": "1.0.0",
+  "description": "Simulateur de CPU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo PONSIN",
+  "license": "MIT"
+}

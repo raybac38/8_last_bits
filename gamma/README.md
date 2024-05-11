@@ -1,3 +1,5 @@
+Lire en format RAW sur github
+
 CPU CISC
 
 Premier bit indique si l'instruction a besion d'une suivante
@@ -37,6 +39,7 @@ Jeu d'instruction
 -00111_arg- : JUMP_REL - saut relatif (utilisation de relatif)
 -01000_arg- : INCR  Incrémentation de 1 de arg1
 -01001_arg- : DECR  Décrémentation de 1 de arg1
+-01010_arg- : BUSS  Mettre l'adress du bus a la valeur de ARG
 
 # taille 2 octet
 
